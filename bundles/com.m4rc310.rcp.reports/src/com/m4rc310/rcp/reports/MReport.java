@@ -114,6 +114,8 @@ public class MReport {
 			ArrayList<File> files = new ArrayList<File>();
 			listf(path, files);
 
+			
+			
 			files.stream().filter((file) -> (file.getName().endsWith(".jrxml"))).forEachOrdered((file) -> {
 
 				
