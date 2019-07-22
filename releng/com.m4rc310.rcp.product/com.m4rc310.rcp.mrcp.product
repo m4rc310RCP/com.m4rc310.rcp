@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="M+RcP" uid="com.m4rc310.rcp.mrcp.product" id="com.m4rc310.rcp.mrcp.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <programArgs>-clearPersistedState
+      </programArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      </vmArgsMac>
+   </launcherArgs>
+
+   <windowImages/>
+
+   <splash
+      location="com.m4rc310.rcp.mrcp" />
+   <launcher name="M+RcP">
+      <linux icon="/com.m4rc310.rcp.product/icons/png.xpm"/>
+      <macosx icon="/com.m4rc310.rcp.mrcp/icons/ladybug.icns"/>
+      <win useIco="true">
+         <ico path="/com.m4rc310.rcp.mrcp/icons/ladybug.ico"/>
+         <bmp
+            winSmallHigh="/com.m4rc310.rcp.mrcp/icons/png_000.bmp"
+            winMediumHigh="/com.m4rc310.rcp.product/icons/png_001.bmp"
+            winLargeHigh="/com.m4rc310.rcp.product/icons/png_002.bmp"
+            winExtraLargeHigh="/com.m4rc310.rcp.product/icons/png_003.bmp"/>
+      </win>
+   </launcher>
+
+   <vm>
+   </vm>
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="org.eclipse.e4.rcp" installMode="root"/>
+      <feature id="com.m4rc310.rcp.feature"/>
+      <feature id="org.eclipse.emf.ecore"/>
+      <feature id="org.eclipse.emf.common"/>
+   </features>
+
+   <configurations>
+      <plugin id="org.apache.felix.scr" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+      <property name="osgi.instance.area.default" value="@user.home/workspace" />
+   </configurations>
+
+   <preferencesInfo>
+      <targetfile overwrite="false"/>
+   </preferencesInfo>
+
+   <cssInfo>
+   </cssInfo>
+
+</product>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="com.m4rc310.rcp.reports" version="2">
+    <resource path="src/com/m4rc310/rcp/reports/R.java" type="com.m4rc310.rcp.reports.R">
+        <filter id="643842064">
+            <message_arguments>
+                <message_argument value="JRRewindableDataSource"/>
+                <message_argument value="R"/>
+                <message_argument value="getJRBeanDataSource(Collection&lt;?&gt;)"/>
+            </message_arguments>
+        </filter>
+        <filter id="643842064">
+            <message_arguments>
+                <message_argument value="JasperReport"/>
+                <message_argument value="R"/>
+                <message_argument value="getReport(String)"/>
+            </message_arguments>
+        </filter>
+        <filter id="643846161">
+            <message_arguments>
+                <message_argument value="IReportViewer"/>
+                <message_argument value="R"/>
+                <message_argument value="loadReport(IReportViewer, String, Map&lt;String,Object&gt;, List&lt;?&gt;)"/>
+            </message_arguments>
+        </filter>
+    </resource>
+    <resource path="src/reports/utils/JR.java" type="reports.utils.JR">
+        <filter id="643842064">
+            <message_arguments>
+                <message_argument value="JasperPrint"/>
+                <message_argument value="JR"/>
+                <message_argument value="getJasperPrint(String, Map&lt;String,Object&gt;, List&lt;?&gt;)"/>
+            </message_arguments>
+        </filter>
+        <filter id="643842064">
+            <message_arguments>
+                <message_argument value="JasperReport"/>
+                <message_argument value="JR"/>
+                <message_argument value="getReport(String)"/>
+            </message_arguments>
+        </filter>
+        <filter id="643846161">
+            <message_arguments>
+                <message_argument value="IReportViewer"/>
+                <message_argument value="JR"/>
+                <message_argument value="loadReport(IReportViewer, String, Map&lt;String,Object&gt;, List&lt;?&gt;)"/>
+            </message_arguments>
+        </filter>
+    </resource>
+    <resource path="src/reports/utils/ReportUtils.java" type="reports.utils.ReportUtils">
+        <filter id="643842064">
+            <message_arguments>
+                <message_argument value="JasperPrint"/>
+                <message_argument value="ReportUtils"/>
+                <message_argument value="createJasperPrint(String, Map&lt;String,Object&gt;, List&lt;?&gt;)"/>
+            </message_arguments>
+        </filter>
+        <filter id="643842064">
+            <message_arguments>
+                <message_argument value="JasperReport"/>
+                <message_argument value="ReportUtils"/>
+                <message_argument value="getReport(String)"/>
+            </message_arguments>
+        </filter>
+        <filter id="643846161">
+            <message_arguments>
+                <message_argument value="JasperPrint"/>
+                <message_argument value="ReportUtils"/>
+                <message_argument value="printReportToPrinter(JasperPrint)"/>
+            </message_arguments>
+        </filter>
+        <filter comment="mmmm" id="643846161">
+            <message_arguments>
+                <message_argument value="JasperReport"/>
+                <message_argument value="ReportUtils"/>
+                <message_argument value="printReport(JasperReport, Map&lt;String,Object&gt;, List&lt;?&gt;)"/>
+            </message_arguments>
+        </filter>
+        <filter id="643846161">
+            <message_arguments>
+                <message_argument value="JasperReport"/>
+                <message_argument value="ReportUtils"/>
+                <message_argument value="viewerReport(JasperReport, Map&lt;String,Object&gt;, List&lt;Object&gt;)"/>
+            </message_arguments>
+        </filter>
+    </resource>
+    <resource path="src/reports/utils/SubReportUtils.java" type="reports.utils.SubReportUtils">
+        <filter id="643842064">
+            <message_arguments>
+                <message_argument value="JRRewindableDataSource"/>
+                <message_argument value="SubReportUtils"/>
+                <message_argument value="getJRBeanDataSource(Collection&lt;?&gt;)"/>
+            </message_arguments>
+        </filter>
+        <filter id="643842064">
+            <message_arguments>
+                <message_argument value="JasperReport"/>
+                <message_argument value="SubReportUtils"/>
+                <message_argument value="getSubReportFor(String)"/>
+            </message_arguments>
+        </filter>
+    </resource>
+</component>

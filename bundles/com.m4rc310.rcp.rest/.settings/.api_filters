@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="com.m4rc310.rcp.rest" version="2">
+    <resource path="src/com/m4rc310/rcp/rest/handlers/TestReportCompilationHandler.java" type="com.m4rc310.rcp.rest.handlers.TestReportCompilationHandler">
+        <filter comment="MLS" id="643846161">
+            <message_arguments>
+                <message_argument value="EventBroker"/>
+                <message_argument value="TestReportCompilationHandler"/>
+                <message_argument value="execute(EventBroker)"/>
+            </message_arguments>
+        </filter>
+        <filter id="643846161">
+            <message_arguments>
+                <message_argument value="EventBroker"/>
+                <message_argument value="TestReportCompilationHandler"/>
+                <message_argument value="execute(EventBroker, Shell)"/>
+            </message_arguments>
+        </filter>
+    </resource>
+    <resource path="src/com/m4rc310/rcp/rest/handlers/UpdateInfoHandler.java" type="com.m4rc310.rcp.rest.handlers.UpdateInfoHandler">
+        <filter id="643846161">
+            <message_arguments>
+                <message_argument value="EventBroker"/>
+                <message_argument value="UpdateInfoHandler"/>
+                <message_argument value="execute(EventBroker)"/>
+            </message_arguments>
+        </filter>
+    </resource>
+</component>

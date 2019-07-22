@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_BxaXACerEeWxCPrV0pAZQQ">
+  <imports xsi:type="commands:BindingContext" xmi:id="_ibSXUJ6vEemlyvpAGyJNmQ" elementId="org.eclipse.ui.contexts.dialogAndWindow"/>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_QqSikIrOEeW7h_qdP9N9fw" featurename="commands" parentElementId="xpath:/">
+    <elements xsi:type="commands:Command" xmi:id="_UCYfwIrOEeW7h_qdP9N9fw" elementId="test.handler.helloWorldCommand" commandName="Hello World"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_fW12kIrOEeW7h_qdP9N9fw" featurename="handlers" parentElementId="xpath:/">
+    <elements xsi:type="commands:Handler" xmi:id="_k2L0IIrOEeW7h_qdP9N9fw" elementId="org.eclipse.pde.ui.templates.handler.L" contributionURI="bundleclass://com.m4rc310.rcp.mirc/com.m4rc310.rcp.mirc.handlers.HelloWorldHandler" command="_UCYfwIrOEeW7h_qdP9N9fw"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_pVgfIIrOEeW7h_qdP9N9fw" featurename="menuContributions" parentElementId="xpath:/">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_tSwX0IrOEeW7h_qdP9N9fw" elementId="org.eclipse.pde.ui.templates.menucontribution.0" positionInParent="after=additions" parentId="com.m4rc310.rcp.commands.menu.file"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_xqEOoJ6vEemlyvpAGyJNmQ" featurename="bindingTables" parentElementId="xpath:/">
+    <elements xsi:type="commands:BindingTable" xmi:id="_0u-xIJ6vEemlyvpAGyJNmQ" elementId="com.m4rc310.rcp.mirc.bindingtable.0" bindingContext="_ibSXUJ6vEemlyvpAGyJNmQ">
+      <bindings xmi:id="_2oAIQJ6vEemlyvpAGyJNmQ" elementId="com.m4rc310.rcp.mirc.keybinding.0" keySequence="M1+L" command="_UCYfwIrOEeW7h_qdP9N9fw"/>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_3Nvd0KAIEemlyvpAGyJNmQ" featurename="children" parentElementId="com.m4rc310.rcp.mrcp.partstack.connection.info"/>
+</fragment:ModelFragments>

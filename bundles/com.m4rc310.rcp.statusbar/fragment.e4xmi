@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_N5rcEJucEempB8TctTGx6Q">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_uVUfoJuqEempB8TctTGx6Q" featurename="trimContributions" parentElementId="xpath:/">
+    <elements xsi:type="menu:TrimContribution" xmi:id="_w5sg4JuqEempB8TctTGx6Q" elementId="com.m4rc310.rcp.statusbar.trimcontribution.0" parentId="com.m4rc310.rcp.mrcp.trimbar.statusbar" positionInParent="after=additions">
+      <children xsi:type="menu:ToolControl" xmi:id="_yxV_AJuqEempB8TctTGx6Q" elementId="com.m4rc310.rcp.statusbar.toolcontrol.0" contributionURI="bundleclass://com.m4rc310.rcp.statusbar/com.m4rc310.rcp.statusbar.toolcontrols.ProgressMonitorControl"/>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

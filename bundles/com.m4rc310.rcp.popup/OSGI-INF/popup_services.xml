@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="com.m4rc310.rcp.popup.services">
+   <implementation class="com.m4rc310.rcp.popup.services.PopupServiceImpl"/>
+   <service>
+      <provide interface="com.m4rc310.rcp.popup.services.IPopupService"/>
+   </service>
+</scr:component>

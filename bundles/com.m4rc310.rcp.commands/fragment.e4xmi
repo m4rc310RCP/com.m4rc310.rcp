@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_BxaXACerEeWxCPrV0pAZQQ">
+  <imports xsi:type="commands:Category" xmi:id="_j9i8MJo5EembXMiJbL52sw" elementId="com.m4rc310.rcp.mrcp.category.edit"/>
+  <imports xsi:type="commands:BindingContext" xmi:id="_hSapgJp3EembXMiJbL52sw" elementId="org.eclipse.ui.contexts.dialogAndWindow"/>
+  <imports xsi:type="commands:Category" xmi:id="_cWPPUJq3EembXMiJbL52sw" elementId="com.m4rc310.rcp.mrcp.category.test"/>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_QqSikIrOEeW7h_qdP9N9fw" featurename="commands" parentElementId="xpath:/">
+    <elements xsi:type="commands:Command" xmi:id="_UCYfwIrOEeW7h_qdP9N9fw" elementId="test.handler.helloWorldCommand" commandName="Hello World"/>
+    <elements xsi:type="commands:Command" xmi:id="_SWhQkJo4EembXMiJbL52sw" elementId="org.eclipse.ui.file.save" commandName="%command_save" description="%command_save_des" category="_j9i8MJo5EembXMiJbL52sw"/>
+    <elements xsi:type="commands:Command" xmi:id="_PViWYJo5EembXMiJbL52sw" elementId="org.eclipse.ui.file.saveAll" commandName="%command_save_all" description="Salvar tudo " category="_j9i8MJo5EembXMiJbL52sw"/>
+    <elements xsi:type="commands:Command" xmi:id="_4PfycJo5EembXMiJbL52sw" elementId="com.m4rc310.rcp.commands.command.command_delete" commandName="%command_delete" description="Remover" category="_j9i8MJo5EembXMiJbL52sw"/>
+    <elements xsi:type="commands:Command" xmi:id="_HucMsJo6EembXMiJbL52sw" elementId="org.eclipse.ui.file.exit" commandName="%command_quit" category="_j9i8MJo5EembXMiJbL52sw"/>
+    <elements xsi:type="commands:Command" xmi:id="_Um5F0Jo6EembXMiJbL52sw" elementId="org.eclipse.ui.help.aboutAction" commandName="%command_about" category="_j9i8MJo5EembXMiJbL52sw"/>
+    <elements xsi:type="commands:Command" xmi:id="_kHs78Jp0EembXMiJbL52sw" elementId="com.m4rc310.rcp.commands.command_remove" commandName="%command_remove" description="Remove" category="_j9i8MJo5EembXMiJbL52sw"/>
+    <elements xsi:type="commands:Command" xmi:id="_mzuXUJq2EembXMiJbL52sw" elementId="com.m4rc310.rcp.commands.command.command_test" commandName="%command_test" category="_cWPPUJq3EembXMiJbL52sw"/>
+    <elements xsi:type="commands:Command" xmi:id="_LBJ-cJ7LEemlyvpAGyJNmQ" elementId="org.eclipse.ui.newWizard" commandName="%command_new"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_fW12kIrOEeW7h_qdP9N9fw" featurename="handlers" parentElementId="xpath:/">
+    <elements xsi:type="commands:Handler" xmi:id="_k2L0IIrOEeW7h_qdP9N9fw" elementId="org.eclipse.pde.ui.templates.handler.0" contributionURI="bundleclass://com.m4rc310.rcp.commands/com.m4rc310.rcp.commands.handlers.HelloWorldHandler" command="_UCYfwIrOEeW7h_qdP9N9fw"/>
+    <elements xsi:type="commands:Handler" xmi:id="_2JJUgJo6EembXMiJbL52sw" elementId="com.m4rc310.rcp.commands.handler.0" contributionURI="bundleclass://com.m4rc310.rcp.commands/com.m4rc310.rcp.commands.handlers.SaveHandler" command="_SWhQkJo4EembXMiJbL52sw"/>
+    <elements xsi:type="commands:Handler" xmi:id="_9BUtQJo6EembXMiJbL52sw" elementId="com.m4rc310.rcp.commands.handler.1" contributionURI="bundleclass://com.m4rc310.rcp.commands/com.m4rc310.rcp.commands.handlers.SaveAllHandler" command="_PViWYJo5EembXMiJbL52sw"/>
+    <elements xsi:type="commands:Handler" xmi:id="_DTxiwJo7EembXMiJbL52sw" elementId="com.m4rc310.rcp.commands.handler.2" contributionURI="bundleclass://com.m4rc310.rcp.commands/com.m4rc310.rcp.commands.handlers.QuitHandler" command="_HucMsJo6EembXMiJbL52sw"/>
+    <elements xsi:type="commands:Handler" xmi:id="_FyscQJo7EembXMiJbL52sw" elementId="com.m4rc310.rcp.commands.handler.3" contributionURI="bundleclass://com.m4rc310.rcp.commands/com.m4rc310.rcp.commands.handlers.AboutHandler" command="_Um5F0Jo6EembXMiJbL52sw"/>
+    <elements xsi:type="commands:Handler" xmi:id="_rLqG4Jp0EembXMiJbL52sw" elementId="com.m4rc310.rcp.commands.handler.4" contributionURI="bundleclass://com.m4rc310.rcp.commands/com.m4rc310.rcp.commands.handlers.RemoveHandler" command="_kHs78Jp0EembXMiJbL52sw"/>
+    <elements xsi:type="commands:Handler" xmi:id="_ilj4UJq3EembXMiJbL52sw" elementId="com.m4rc310.rcp.commands.handler.5" contributionURI="bundleclass://com.m4rc310.rcp.commands/com.m4rc310.rcp.commands.handlers.HelloWorldHandler" command="_mzuXUJq2EembXMiJbL52sw"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_pVgfIIrOEeW7h_qdP9N9fw" featurename="menuContributions" parentElementId="xpath:/">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_tSwX0IrOEeW7h_qdP9N9fw" elementId="org.eclipse.pde.ui.templates.menucontribution.editar" positionInParent="after=additions" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_vhzH8J5qEemlyvpAGyJNmQ" elementId="com.m4rc310.rcp.commands.menu.file" label="%menu_file">
+        <children xsi:type="menu:Menu" xmi:id="_46ZNYJ7KEemlyvpAGyJNmQ" elementId="com.m4rc310.rcp.commands.menu.file.new" label="%menu_new"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_By4oAKKwEemCGYh6aWnxcA" elementId="com.m4rc310.rcp.commands.menu.menu_registers" label="%menu_registers"/>
+      <children xsi:type="menu:Menu" xmi:id="_wg9ZMIrOEeW7h_qdP9N9fw" elementId="org.eclipse.pde.ui.templates.menu.e4handlers" label="%menu_edit">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_2LM_MIrOEeW7h_qdP9N9fw" elementId="org.eclipse.pde.ui.templates.handledmenuitem." label="%menu_save_text" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/save_edit_sdcard.png" command="_SWhQkJo4EembXMiJbL52sw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_UAkQMJo7EembXMiJbL52sw" elementId="com.m4rc310.rcp.commands.handledmenuitem.save" label="%menu_save_all_text" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/saveall_edit_sdcard.png" tooltip="" mnemonics="" command="_PViWYJo5EembXMiJbL52sw"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_cX-3MJp0EembXMiJbL52sw" elementId="com.m4rc310.rcp.commands.menuseparator.0"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_vdWlkJp0EembXMiJbL52sw" elementId="com.m4rc310.rcp.commands.handledmenuitem.menu_remove" label="%menu_remove" iconURI="platform:/plugin/org.eclipse.ui/icons/full/obj16/delete_obj.png" tooltip="%menu_remove" command="_kHs78Jp0EembXMiJbL52sw"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_SHlEoKDmEemlyvpAGyJNmQ" elementId="com.m4rc310.rcp.commands.menu.menu_view" label="%menu_view"/>
+      <children xsi:type="menu:Menu" xmi:id="_CKMZsKM9EemCGYh6aWnxcA" elementId="com.m4rc310.rcp.commands.menu.window" label="Window"/>
+    </elements>
+    <elements xsi:type="menu:MenuContribution" xmi:id="_kV30cJpsEembXMiJbL52sw" elementId="com.m4rc310.rcp.commands.menucontribution.help" parentId="">
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_nSaeEJpsEembXMiJbL52sw" command="_Um5F0Jo6EembXMiJbL52sw"/>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_rfYNwJpsEembXMiJbL52sw" elementId="" command="_HucMsJo6EembXMiJbL52sw"/>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_8iwngJpyEembXMiJbL52sw" featurename="toolBarContributions" parentElementId="xpath:/">
+    <elements xsi:type="menu:ToolBarContribution" xmi:id="_-_JxcJpyEembXMiJbL52sw" elementId="com.m4rc310.rcp.commands.basics" parentId="org.eclipse.ui.main.toolbar" positionInParent="after=additions">
+      <children xsi:type="menu:HandledToolItem" xmi:id="_Qw1qYJpzEembXMiJbL52sw" elementId="com.m4rc310.rcp.commands.handledtoolitem.menu_save_text" label="%menu_save_text" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/save_edit_sdcard.png" tooltip="%menu_save_text" command="_SWhQkJo4EembXMiJbL52sw"/>
+      <children xsi:type="menu:HandledToolItem" xmi:id="_cIEBUJpzEembXMiJbL52sw" elementId="com.m4rc310.rcp.commands.handledtoolitem.menu_save_all_text" label="%menu_save_all_text" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/saveall_edit_sdcard.png" tooltip="%menu_save_all_text" command="_PViWYJo5EembXMiJbL52sw"/>
+      <children xsi:type="menu:ToolBarSeparator" xmi:id="_iGQeEJpzEembXMiJbL52sw" elementId="com.m4rc310.rcp.commands.toolbarseparator.0"/>
+    </elements>
+    <elements xsi:type="menu:ToolBarContribution" xmi:id="_gomiwJq_EembXMiJbL52sw" elementId="com.m4rc310.rcp.commands.toolbarcontribution.0" parentId="com.m4rc310.rcp.mrcp.toolbar.right">
+      <children xsi:type="menu:HandledToolItem" xmi:id="_dlA6IJq4EembXMiJbL52sw" elementId="com.m4rc310.rcp.commands.handledtoolitem.0" iconURI="platform:/plugin/com.m4rc310.rcp.commands/icons/16x16/emotes/face-glasses.png" command="_mzuXUJq2EembXMiJbL52sw"/>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_1AKb8Jp2EembXMiJbL52sw" featurename="bindingTables" parentElementId="xpath:/">
+    <elements xsi:type="commands:BindingTable" xmi:id="_6DoMIJ5jEemlyvpAGyJNmQ" elementId="com.m4rc310.rcp.commands.bindingtable.0" bindingContext="_hSapgJp3EembXMiJbL52sw">
+      <bindings xmi:id="_7xHosJ5jEemlyvpAGyJNmQ" elementId="com.m4rc310.rcp.commands.keybinding.0" keySequence="M1+S" command="_SWhQkJo4EembXMiJbL52sw"/>
+      <bindings xmi:id="_6dfiYJ7LEemlyvpAGyJNmQ" elementId="com.m4rc310.rcp.commands.keybinding.1" keySequence="M1+N" command="_LBJ-cJ7LEemlyvpAGyJNmQ"/>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_05n5AJrMEempB8TctTGx6Q" featurename="descriptors" parentElementId="xpath:/">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_4kBHIJrMEempB8TctTGx6Q" elementId="com.m4rc310.rcp.reports.partdescriptor.default" label="%title_report" iconURI="platform:/plugin/com.m4rc310.rcp.commands/icons/16x16/others/page_white_text.png" tooltip="%title_report" allowMultiple="true" category="reports" closeable="true" contributionURI="bundleclass://com.m4rc310.rcp.reports/com.m4rc310.rcp.reports.parts.JasperReportPart">
+      <variables>partStack:org.eclipse.e4.primaryDataStack</variables>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_tZxBsKBdEemlyvpAGyJNmQ" featurename="addons" parentElementId="xpath:/">
+    <elements xsi:type="application:Addon" xmi:id="_v7ySgKBdEemlyvpAGyJNmQ" elementId="com.m4rc310.rcp.commands.addon.init" contributionURI="bundleclass://com.m4rc310.rcp.commands/com.m4rc310.rcp.commands.addons.AddonInit"/>
+  </fragments>
+</fragment:ModelFragments>

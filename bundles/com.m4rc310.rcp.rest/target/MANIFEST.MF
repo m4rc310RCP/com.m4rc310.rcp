@@ -1,0 +1,58 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Rest
+Bundle-SymbolicName: com.m4rc310.rcp.rest;singleton:=true
+Bundle-Version: 1.0.0.201907220143
+Bundle-ClassPath: libs/commons-lang3-3.8.1.jar,libs/commons-lang3-3.9.
+ jar,libs/jackson-annotations-2.9.0.jar,libs/jackson-core-2.9.8.jar,li
+ bs/jackson-databind-2.9.8.jar,libs/jaretutil-0.32.jar,libs/javax.anno
+ tation-api-1.3.2.jar,libs/jul-to-slf4j-1.7.26.jar,libs/log4j-api-2.11
+ .2.jar,libs/log4j-to-slf4j-2.11.2.jar,libs/logback-classic-1.2.3.jar,
+ libs/logback-core-1.2.3.jar,libs/org.eclipse.swtchart-0.7.0-201906051
+ 446-sources.jar,libs/org.eclipse.swtchart-0.7.0-201906051446.jar,libs
+ /org.eclipse.swtchart.extensions-0.7.0-201906051446-sources.jar,libs/
+ org.eclipse.swtchart.extensions-0.7.0-201906051446.jar,libs/slf4j-api
+ -1.7.26.jar,libs/snakeyaml-1.23.jar,libs/spring-aop-5.1.6.RELEASE.jar
+ ,libs/spring-beans-5.1.6.RELEASE.jar,libs/spring-boot-2.1.4.RELEASE.j
+ ar,libs/spring-boot-autoconfigure-2.1.4.RELEASE.jar,libs/spring-boot-
+ starter-2.1.4.RELEASE.jar,libs/spring-boot-starter-logging-2.1.4.RELE
+ ASE.jar,libs/spring-context-5.1.6.RELEASE.jar,libs/spring-core-5.1.6.
+ RELEASE.jar,libs/spring-expression-5.1.6.RELEASE.jar,libs/spring-jcl-
+ 5.1.6.RELEASE.jar,libs/spring-web-5.1.6.RELEASE.jar,libs/timebars-1.4
+ 9.jar,.
+Bundle-Activator: com.m4rc310.rcp.rest.Activator
+Bundle-Vendor: M4RC310
+Export-Package: .,com.m4rc310.rcp.rest;uses:="org.osgi.framework",com.
+ m4rc310.rcp.rest.addons;uses:="org.osgi.service.event,org.eclipse.e4.
+ core.services.events,org.eclipse.core.runtime.preferences",com.m4rc31
+ 0.rcp.rest.handlers; uses:="org.eclipse.e4.ui.services.internal.event
+ s,  org.eclipse.e4.core.contexts,  com.m4rc310.rcp.rest.i18n,  org.ec
+ lipse.swt.widgets,  org.eclipse.core.runtime.preferences,  org.eclips
+ e.e4.ui.model.application.ui.menu,  org.eclipse.core.commands,  com.m
+ 4rc310.rcp.commands",com.m4rc310.rcp.rest.i18n;uses:="org.eclipse.e4.
+ core.services.nls",com.m4rc310.rcp.rest.parts;uses:="com.m4rc310.rcp.
+ rest.i18n,org.eclipse.swt.widgets,com.m4rc310.rcp.commands.services",
+ com.m4rc310.rcp.rest.toolcontrols; uses:="com.m4rc310.rcp.rest.i18n, 
+  org.eclipse.swt.widgets,  org.eclipse.e4.ui.di,  com.m4rc310.rcp.com
+ mands.services",org.apache.commons.lang3,org.apache.commons.lang3.arc
+ h,org.apache.commons.lang3.builder,org.apache.commons.lang3.concurren
+ t,org.apache.commons.lang3.event,org.apache.commons.lang3.exception,o
+ rg.apache.commons.lang3.math,org.apache.commons.lang3.mutable,org.apa
+ che.commons.lang3.reflect,org.apache.commons.lang3.text,org.apache.co
+ mmons.lang3.text.translate,org.apache.commons.lang3.time,org.apache.c
+ ommons.lang3.tuple,org.eclipse.wb.swt;uses:="org.eclipse.swt.graphics
+ ,org.eclipse.jface.resource"
+Require-Bundle: javax.inject,org.eclipse.osgi,org.eclipse.jface,org.ec
+ lipse.e4.ui.services,org.eclipse.e4.core.di.annotations,org.eclipse.c
+ ore.runtime,org.eclipse.e4.ui.model.workbench,org.eclipse.e4.core.ser
+ vices,org.eclipse.e4.core.di,org.eclipse.e4.core.di.extensions,org.ec
+ lipse.e4.ui.di,org.eclipse.e4.ui.workbench,org.eclipse.osgi.services,
+ com.m4rc310.rcp.commands,org.eclipse.ui.workbench,com.m4rc310.rcp.pre
+ ferences,org.eclipse.e4.core.contexts,com.m4rc310.rcp.libs,org.eclips
+ e.core.databinding.observable,org.eclipse.jface.databinding
+Import-Package: javax.annotation;version="1.0.0";resolution:=optional,
+ javax.inject;version="1.0.0"
+Automatic-Module-Name: com.m4rc310.rcp.rest
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+

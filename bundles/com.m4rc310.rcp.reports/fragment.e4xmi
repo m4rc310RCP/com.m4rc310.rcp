@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_FngdsJrwEempB8TctTGx6Q">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_HHd0kJrwEempB8TctTGx6Q" featurename="descriptors" parentElementId="xpath:/">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_K9cnoJrwEempB8TctTGx6Q" elementId="com.m4rc310.rcp.reports.partdescriptor.default-" label="%title_part_report" iconURI="platform:/plugin/com.m4rc310.rcp.commands/icons/16x16/others/paste_plain.png" closeable="true" contributionURI="bundleclass://com.m4rc310.rcp.reports/com.m4rc310.rcp.reports.parts.JasperReportPart"/>
+  </fragments>
+</fragment:ModelFragments>
